@@ -11,7 +11,7 @@ from sklearn.pipeline import Pipeline
 from src.mlproject.utils import save_object
 
 from src.mlproject.exception import CustomException
-from src.mlproject.logger import logging
+from logger import logging
 import os
 
 

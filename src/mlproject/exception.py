@@ -1,5 +1,5 @@
 import sys
-from src.mlproject.logger import logging
+from logger import logging
 
 def error_message_detail(error,error_detail:sys):# sys help to track error details ex- line no.,file name etc
     _,_,exc_tb=error_detail.exc_info() # exc_tb consist of name of file, line number etc where exception occurs,

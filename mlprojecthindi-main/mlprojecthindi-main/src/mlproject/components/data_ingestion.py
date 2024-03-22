@@ -1,7 +1,7 @@
 import os
 import sys
 from src.mlproject.exception import CustomException
-from src.mlproject.logger import logging
+from logger import logging
 import pandas as pd
 from src.mlproject.utils import read_sql_data
 
